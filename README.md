@@ -8,6 +8,8 @@ The script parser.py reads an email and creates an alert instance to [TheHive](h
 You can configure the following through the config.conf:
 - Email username (From which we parse logs)
 - Email password 
+- Email folder (The folder from which we will get emails; default: INBOX)
+- IMAP domain (The IMAP domain of the email service. ex: imap.yandex.kz)
 - TheHive url (url of the platform to which we pump alerts)
 - TheHive API key (User's API key which we need to use for uploading alerts)
 - Whitelist (A list of emails from which we will accept alerts)
