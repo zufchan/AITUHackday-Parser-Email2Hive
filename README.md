@@ -28,8 +28,5 @@ You'll get a PID in the output, save it. If you want to stop the parser type fol
 kill [PID]
 ```
 
-## Send logs
-Use this script for testing the perfomance of the parse bot
-
 ## Bot
 Telegram bot for notifications on the alerts, you can filter the alerts by the severity.
