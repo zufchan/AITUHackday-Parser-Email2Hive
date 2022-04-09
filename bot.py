@@ -31,13 +31,13 @@ class User:
     email = None
 
 def send_mail(subject, content, email):
-    login = ""
-    password = ""
+    login = config['hackday parser']['email_username']
+    password = config['hackday parser']['email_password']
     url = "smtp.yandex.kz"
     toaddr = email
     msg = MIMEMultipart()
     msg['Subject'] = subject
-    msg['From'] = ''
+    msg['From'] = config['hackday parser']['email_username']
     body = content
     msg.attach(MIMEText(body, 'plain'))
     try:
