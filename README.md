@@ -27,6 +27,7 @@ You'll get a PID in the output, save it. If you want to stop the parser type fol
 ```
 kill [PID]
 ```
+Check parser.log file that will be created upon the start if something is not working
 
 ## Bot
 Telegram bot for notifications on the alerts, you can filter the alerts by the severity.
