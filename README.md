@@ -13,7 +13,7 @@ You can configure the following through the config.conf:
 - TheHive url (url of the platform to which we pump alerts)
 - TheHive API key (User's API key which we need to use for uploading alerts)
 - Whitelist (A list of emails from which we will accept alerts)
-- Telegram bot token (Bots token that we need to setup bot for notifications)
+- Telegram bot token (Token that we need for setup of the bot for notifications)
 
 # Usage
 ## Parser
