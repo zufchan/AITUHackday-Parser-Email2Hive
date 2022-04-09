@@ -206,9 +206,9 @@ if __name__ == "__main__":
     while True:
 #         log.debug('Entered IMAP parsing infinite loop')
         try:
-            imap = imaplib.IMAP4_SSL("imap.yandex.kz")
+            imap = imaplib.IMAP4_SSL(config['hackday parser']['imap_domain'])
             imap.login(email_username, email_password)
-            status, messages = imap.select("INBOX")
+            status, messages = imap.select(config['hackday parser']['email_folder'])
 #             log.debug('Successfuly initiated IMAP connection')
             texts, mail_from_l, mail_subject_l = email_listener(imap)
         except Exception as e:
