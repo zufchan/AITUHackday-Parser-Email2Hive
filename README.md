@@ -1,4 +1,5 @@
 # AITUHackday-Parser-Email2Hive
+#### 🥇 1st Place at the Hackathon
 Code for AITUHackDay: Creative Industry Hackathon case for KazDream, by Unknown Impact team
 
 # Purpose
